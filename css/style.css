@@ -1,0 +1,15 @@
+* { 
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+body {
+    margin: 10px;
+}
+
+.card-body_add {
+    background-color: #f1fafd;
+}
+
+.card-body_update {
+    background-color: #fcf1ce;
+}
