@@ -14,14 +14,14 @@
                         
                         <thead class="thead-dark">
                             <tr style="background-color: #343a40">
-                                <td colspan="7" align="center" ><a href="./controler/add.php"><button class="btn btn-success"><i class="fas fa-user-plus"></i>&nbsp;&nbsp;Add new user</button></a></td>
+                                <td colspan="7" align="center" ><a href="./views/add.php"><button class="btn btn-success"><i class="fas fa-user-plus"></i>&nbsp;&nbsp;Add new user</button></a></td>
                             </tr>
                             <tr>
                                 <th>Prenom</th>
                                 <th>Nom</th>
                                 <th>Email</th>
                                 <th>Sex</th>
-                                <th>Mot de Passe<span style="float: right"><a href="./controler/initPassAll.php">Click <i class="fas fa-key"></i></a></span></th>
+                                <th>Mot de Passe<span style="float: right"><a href="./views/initPassAll.php">Click <i class="fas fa-key"></i></a></span></th>
                                 <th>Option</th>
                             </tr>
                         </thead>
@@ -40,9 +40,9 @@
                                         <td><?php echo $row->password; ?></td>
                                         <td>
                                             <center>
-                                                <a href="./controler/update.php?edit_id=<?php echo $row->id; ?>"><button class="btn btn-primary"><i class="fas fa-user-edit">&nbsp;</i>Edit</button></a>&nbsp; &nbsp;
-                                                <a href="./controler/delete.php?delete_id=<?php echo $row->id; ?>"><button class="btn btn-danger"><i class="fas fa-user-minus"></i>&nbsp;Delete</button></a> 
-                                                <a href="./controler/initPass.php?user_id=<?php echo $row->id; ?>"><button class="btn btn-secondary"><i class="fas fa-key"></i></button></a>
+                                                <a href="./views/update.php?edit_id=<?php echo $row->id; ?>"><button class="btn btn-primary"><i class="fas fa-user-edit">&nbsp;</i>Edit</button></a>&nbsp; &nbsp;
+                                                <a href="./views/delete.php?delete_id=<?php echo $row->id; ?>"><button class="btn btn-danger"><i class="fas fa-user-minus"></i>&nbsp;Delete</button></a> 
+                                                <a href="./views/initPass.php?user_id=<?php echo $row->id; ?>"><button class="btn btn-secondary"><i class="fas fa-key"></i></button></a>
                                             </center
                                         </td>
                                     </tr>
