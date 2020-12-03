@@ -43,7 +43,7 @@
                                                 <a href="./views/update.php?edit_id=<?php echo $row->id; ?>"><button class="btn btn-primary"><i class="fas fa-user-edit">&nbsp;</i>Edit</button></a>&nbsp; &nbsp;
                                                 <a href="./views/delete.php?delete_id=<?php echo $row->id; ?>"><button class="btn btn-danger"><i class="fas fa-user-minus"></i>&nbsp;Delete</button></a> 
                                                 <a href="./views/initPass.php?user_id=<?php echo $row->id; ?>"><button class="btn btn-secondary"><i class="fas fa-key"></i></button></a>
-                                            </center
+                                            </center>
                                         </td>
                                     </tr>
                             <?php
