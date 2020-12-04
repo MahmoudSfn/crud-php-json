@@ -1,15 +1,23 @@
-* { 
-    font-family: 'Ubuntu', sans-serif; 
+* {
+  font-family: "Ubuntu", sans-serif;
 }
 
 body {
-    margin: 10px;
+  margin: 0px;
 }
 
 .card-body_add {
-    background-color: #f1fafd;
+  background-color: #f1fafd;
 }
 
 .card-body_update {
-    background-color: #fcf1ce;
+  background-color: #fcf1ce;
+}
+
+.item-center {
+  align-content: center;
+}
+
+.mdl-layout__header {
+  background-color: #212529;
 }

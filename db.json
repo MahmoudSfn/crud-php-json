@@ -77,7 +77,7 @@
         "nom": "Gingle",
         "email": "agingle9@mayoclinic.com",
         "genre": "Madame",
-        "password": "AgaGin"
+        "password": "AgaGingle"
     },
     {
         "id": 11,
@@ -398,5 +398,21 @@
         "email": "mbeachamp1d@nba.com",
         "genre": "Madame",
         "password": "MarBeacha"
+    },
+    {
+        "id": 51,
+        "prenom": "Mahmoud",
+        "nom": "SOUAYFAN",
+        "email": "azeaze@fssd",
+        "genre": "Monsieur",
+        "password": ""
+    },
+    {
+        "id": 52,
+        "prenom": "Mahmoud",
+        "nom": "SOUAYFAN",
+        "email": "mahmoudsouayfan@test1.com",
+        "genre": "Monsieur",
+        "password": ""
     }
 ]
